@@ -1,5 +1,5 @@
 # RANDOMsec
-Find who is alive on same network as you.
+Find who is alive on your local network .
 
 installation:
 download or clone this after that install these python packages
