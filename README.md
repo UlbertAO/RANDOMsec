@@ -9,6 +9,17 @@ if you do not have sys,re,getopt already installed install then as well
 
 How To Run:
 
-python3 netdisco.py -i wlan0
+netdisco -i <interface>
+
+
+-i  :specify interface
+-h  :show help
+-t  :specify target
+
+
+Example:
+    python3 netdisco.py -i wlan0
+    python netdisco.py -i Wi-Fi
+    python3 netdisco.py -i wlan0 -t 198.168.0.55(find if specific ip is alive or not)
 
 #thats it
