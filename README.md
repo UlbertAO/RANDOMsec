@@ -10,13 +10,9 @@ if you do not have sys,re,getopt already installed install then as well
 How To Run:
 
 netdisco -i <interface>
-
-
 -i  :specify interface
 -h  :show help
 -t  :specify target
-
-
 Example:
     python3 netdisco.py -i wlan0
     python netdisco.py -i Wi-Fi
